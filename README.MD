@@ -19,5 +19,4 @@ and you need to add the following schema "airbnb_db";
 
 ## Tutorial
 https://www.youtube.com/watch?v=XriUV06Hkow
-last stop : 01:09:48
-```
+last stop : 01:23

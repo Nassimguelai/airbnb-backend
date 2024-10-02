@@ -18,7 +18,7 @@ public class SecurityUtils {
 
     public static final String CLAIMS_NAMESPACE = "https://www.airbnb-poc.fr/roles";
 
-    public static User mapOauth2AttributresToUser(Map<String, Object> attributes) {
+    public static User mapOauth2AttributesToUser(Map<String, Object> attributes) {
         User user = new User();
         String sub = String.valueOf(attributes.get("sub"));
         String username = null;
